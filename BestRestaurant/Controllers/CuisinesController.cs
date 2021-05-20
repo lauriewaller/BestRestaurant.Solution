@@ -11,7 +11,7 @@ namespace BestRestaurant.Controllers
   {
     private readonly BestRestaurantContext _db;
 
-    public RestaurantsController(BestRestaurantContext db)
+    public CuisinesController(BestRestaurantContext db)
     {
       _db = db;
     }
